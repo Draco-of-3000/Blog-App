@@ -105,4 +105,7 @@ Rails.application.configure do
 
   # Allow connections from all hosts
   config.hosts << ENV.fetch("HOST", "0.0.0.0")
+
+  config.hosts << "blog-app-c08z.onrender.com"
+
 end
